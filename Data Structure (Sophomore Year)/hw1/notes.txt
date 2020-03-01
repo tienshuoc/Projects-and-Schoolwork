@@ -1,0 +1,2 @@
+use sqrt()
+use while(number << input)

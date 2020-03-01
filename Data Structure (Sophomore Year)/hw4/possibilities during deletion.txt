@@ -1,0 +1,4 @@
+1. a leaf
+2. the root
+
+the deleted node has/hasn't got a left/right subtree 

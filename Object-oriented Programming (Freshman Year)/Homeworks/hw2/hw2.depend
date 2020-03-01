@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1522675461 source:c:\users\yorkg\desktop\hw2\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<iomanip>
+
