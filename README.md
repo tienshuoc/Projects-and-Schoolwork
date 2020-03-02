@@ -6,6 +6,7 @@
 ## **Object-oriented Programming (Freshman Year)**
 Includes code written in C++ along with assignments specifications of each code
 <br>
+<br>
 
 ## **Data Structure (Sophomore Year)**
 Code written in C++, including various data structure exercises:
@@ -39,7 +40,8 @@ Code written in SystemVerilog, including designs:<br>
 * CNN implementation with sequential outputs
 * 2x2 complex matrix operation design
 * 2D maze shortest path finder (with maze generators written in C++, more code [here](https://github.com/YorkGrizzly/2D-maze-with-system-verilog))
-
+<br>
+<br>
 
 ## **Algorithms (Junior Year)**
 Code written in C++, including designs:
