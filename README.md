@@ -2,6 +2,7 @@
 
   *A compilation of code I've done during university*
   <br>
+  <br>
   
 ## **Object-oriented Programming (Freshman Year)**
 Includes code written in C++ along with assignments specifications of each code
