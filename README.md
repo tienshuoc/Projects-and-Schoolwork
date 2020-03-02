@@ -14,6 +14,7 @@ Code written in C++, including various data structure exercises:
 * Binary Search Tree
 * Graphs  
 <br>
+
 ## **Digital Circuits and Systems (Sophomore Year)**
 
 Code written in SystemVerilog, including designs:<br>
