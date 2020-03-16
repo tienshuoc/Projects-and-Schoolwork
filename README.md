@@ -1,6 +1,6 @@
 # Projects-and-Schoolwork
 
-  *A compilation of code I've done during university*
+  *A compilation of code I've done during university* (including a vimrc configuration file I personalized)
   <br>
   <br>
   
