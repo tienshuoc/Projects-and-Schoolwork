@@ -52,5 +52,5 @@ Code written in C++, including designs:
 
 ## **Machine Learning (Junior Year)**
 Code written in python, mostly using Jupyter notebooks:
-* Linear Regression on concrete strength prediction
-* PCA, Kmeans on mango dataset -> classify mangos by color (red/green)
+* Lab0: Linear Regression on concrete strength prediction
+* Lab1: PCA, Kmeans on mango dataset -> classify mangos by color (red/green)
