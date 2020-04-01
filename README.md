@@ -50,3 +50,7 @@ Code written in C++, including designs:
 * Farming Problem / Knapsack Problem (recursion, dynammic programming)
 * Cargo Transportation Flow Network (FordFulkerson Algorithm implementation)
 
+## **Machine Learning (Junior Year)**
+Code written in python, mostly using Jupyter notebooks:
+* Linear Regression on concrete strength prediction
+* PCA, Kmeans on mango dataset -> classify mangos by color (red/green)
