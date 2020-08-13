@@ -52,12 +52,12 @@ Code written in C++, including designs:
 
 ## **Machine Learning (Junior Year)**
 Code written in python, mostly using Jupyter notebooks:
-* Lab0: Linear Regression on concrete strength prediction
-* Lab1: PCA, Kmeans on mango dataset → classify mangos by color (red/green)
-* Lab2: Logistic Regression & K-Nearest Neighbors on 12 features to determine normal or abnormal backpain
-* Lab3: Handcode MLP network (backpropagation, gradient update...) on handwritten character classification
-* Lab4: Image classification with Pytorch library to classify chest X-ray images for pneumonia
-* Lab5: LSTM implementation on PTT gossip dataset to create simple chatbot
-* Lab6: General Adversarial Networks (GAN) on LLD logo dataset to create novel logos
-* Midterm Project: Classify mango quality based on images, using classical machine learning methods (SVM, LR, KNN, XG-Boost, Ensembling)
-* Final Project: Enter mango quality classifying competition, using pretrained deep neural network (VGG) and more advanced feature extraction methods (Image  Segmentation) → <b> Ranked: 26/538 </b> (Prelminary Round, Final Round still ongoing) 
+* <b>Lab0:</b> Linear Regression on concrete strength prediction
+* <b>Lab1:</b> PCA, Kmeans on mango dataset → classify mangos by color (red/green)
+* <b>Lab2:</b> Logistic Regression & K-Nearest Neighbors on 12 features to determine normal or abnormal backpain
+* <b>Lab3:</b> Handcode MLP network (backpropagation, gradient update...) on handwritten character classification
+* <b>Lab4:</b> Image classification with Pytorch library to classify chest X-ray images for pneumonia
+* <b>Lab5:</b> LSTM implementation on PTT gossip dataset to create simple chatbot
+* <b>Lab6:</b> General Adversarial Networks (GAN) on LLD logo dataset to create novel logos
+* <b>Midterm Project:</b> Classify mango quality based on images, using classical machine learning methods (SVM, LR, KNN, XG-Boost, Ensembling)
+ * <b>Final Project:</b> Enter mango quality classifying competition, using pretrained deep neural network (VGG) and more advanced feature extraction methods (Image  Segmentation) → <b> Ranked: 26/538 </b> (Prelminary Round, Final Round still ongoing) 
