@@ -20,7 +20,7 @@ set complete-=i "Limit the files searched for auto-completes
 set display+=lastline "Always try to show a paragraph's last line
 set encoding=utf-8 "Use an encoding that supports unicode
 set linebreak "Avoid wrapping a line in the middle of a word
-set scrolloff=5 "The number of screen lines to keep above and below the cursor (a large value causes the cursor to stay in the middle line when possible
+set scrolloff=1 "The number of screen lines to keep above and below the cursor (a large value causes the cursor to stay in the middle line when possible
 syntax enable "Enable syntax highlighting
 set wrap "Enable line wrapping (display on newline when line is full to prevent horizontal scrolling
 
