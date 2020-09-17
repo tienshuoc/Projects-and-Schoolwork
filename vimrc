@@ -46,6 +46,18 @@ set history=1000 "Increase the undo limit
 
 set nocompatible "Enable enhancements and improvements of Vi
 
+" set cursor to straigh line in insert mode
+if has("autocmd")
+  au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
+  au InsertEnter,InsertChange *
+    \ if v:insertmode == 'i' | 
+    \   silent execute '!echo -ne "\e[6 q"' | redraw! |
+    \ elseif v:insertmode == 'r' |
+    \   silent execute '!echo -ne "\e[4 q"' | redraw! |
+    \ endif
+  au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
+endif
+
 "colorscheme sonofobsidian
 "colorscheme solarized
 "let g:solarized_termcolors=256
