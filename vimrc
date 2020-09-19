@@ -31,6 +31,7 @@ set wildmenu "Display command line's tab complete options as a menu
 
 "colorscheme wombat256mod "Change color scheme
 set number "Show line numbers on the sidebar
+set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
 set title "set the window's title, reflecting the file currently being edited
 set background=dark "Vim will try to use colors that suit a dark background
