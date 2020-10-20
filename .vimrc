@@ -47,7 +47,7 @@ set history=1000 "Increase the undo limit
 
 set nocompatible "Enable enhancements and improvements of Vi
 
-" set cursor to straigh line in insert mode
+" set cursor to straight line in insert mode
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
   au InsertEnter,InsertChange *
