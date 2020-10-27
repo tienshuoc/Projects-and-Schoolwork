@@ -47,6 +47,9 @@ set history=1000 "Increase the undo limit
 
 set nocompatible "Enable enhancements and improvements of Vi
 
+"remap esc, enter normal mode by typing two semicolons
+imap ;; <Esc>
+
 " set cursor to straight line in insert mode
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
