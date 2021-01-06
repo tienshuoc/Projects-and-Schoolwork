@@ -29,7 +29,6 @@ set laststatus=2 "Always display the status bar
 set ruler "Always show cursor position in status bar
 set wildmenu "Display command line's tab complete options as a menu
 
-"colorscheme wombat256mod "Change color scheme
 set number "Show line numbers on the sidebar
 set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
@@ -47,10 +46,20 @@ set history=1000 "Increase the undo limit
 
 set nocompatible "Enable enhancements and improvements of Vi
 
-"remap esc, enter normal mode by typing two semicolons
-imap jj <Esc>
 
-" set cursor to straight line in insert mode
+
+
+"KEY MAPPINGS
+"remap esc, enter normal mode by typing two j
+imap jj <Esc> 
+"press 'J'/'K' in visual mode to move selected text down/up with autoformatting
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
+
+"set cursor to straigh line in insert mode
+"let &t_SI .= "\e[=1c"
+"let &t_EI .= "\e[=2c"
 if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[2 q"' | redraw!
   au InsertEnter,InsertChange *
@@ -62,10 +71,24 @@ if has("autocmd")
   au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
 
-"colorscheme sonofobsidian
-"colorscheme solarized
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=0
-"let g:solarized_degrade=1
-"let g:solarized_contrast=1
-"colorscheme wombat256mod
+
+" PLUGINS
+" Vim-Plug settings (':PlugInstall' to install)
+call plug#begin('~/.vim/plugged')
+Plug 'preservim/nerdtree'
+Plug 'frazrepo/vim-rainbow' "color paired brackets
+Plug 'preservim/nerdcommenter' "quick commenter ('\cc' to comment out,'\cu' to uncomment,'\cA' to add appending comment)
+Plug 'itchyny/lightline.vim' "lightline (status bar) 
+Plug 'jiangmiao/auto-pairs' "auto add, delete bracket pairs
+Plug 'tpope/vim-surround' "vim surround
+Plug 'yegappan/taglist' "taglist
+"colorschemes
+Plug 'dracula/vim',{'as':'dracula'}
+Plug 'morhetz/gruvbox'
+Plug 'tomasr/molokai'
+Plug 'flazz/vim-colorschemes' "All colorschemes
+"Tomorrow-Night
+
+call plug#end()
+colorscheme gruvbox
+let g:rainbow_active = 1
