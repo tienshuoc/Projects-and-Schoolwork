@@ -29,6 +29,7 @@ set laststatus=2 "Always display the status bar
 set ruler "Always show cursor position in status bar
 set wildmenu "Display command line's tab complete options as a menu
 
+
 set number "Show line numbers on the sidebar
 set relativenumber "Show relative numbers to current line
 set mouse=a "Enable mouse for scrolling and resizing
@@ -70,12 +71,6 @@ if has("autocmd")
     \ endif
   au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
 endif
-"for the GNOME TERMINAL (version 2.26)
-"if has("autocmd")
-"  au InsertEnter * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
-"  au InsertLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape block"
-"  au VimLeave * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
-"endif
 
 
 " PLUGINS
