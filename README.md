@@ -1,6 +1,6 @@
 # Projects-and-Schoolwork
 
-  *A compilation of code I've done during university* (including a vimrc configuration file I personalized)
+  *A compilation of code I've done during university*
   <br>
   <br>
   
@@ -61,3 +61,6 @@ Code written in python, mostly using Jupyter notebooks:
 * <b>Lab6:</b> General Adversarial Networks (GAN) on LLD logo dataset to create novel logos
 * <b>Midterm Project:</b> Classify mango quality based on images, using classical machine learning methods (SVM, LR, KNN, XG-Boost, Ensembling)
  * <b>Final Project:</b> Enter mango quality classifying competition, using pretrained deep neural network (VGG) and more advanced feature extraction methods (Image  Segmentation) → <b> Ranked: 26/538 </b> (Prelminary Round, Final Round still ongoing) 
+
+## **Introduction to VLSI (Junior Year)**
+* Final Project: Designed a custom 4-bit multiplier and accumulator with two-modes. Including Spice, gds, verilog files. Passed DRC and LVS simulations.
